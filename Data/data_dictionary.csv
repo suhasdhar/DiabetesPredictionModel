@@ -1,0 +1,170 @@
+file,column,original_code,description
+demographics.csv,person_id,SEQN,Respondent sequence number
+demographics.csv,release_cycle,SDDSRVYR,Data release cycle
+demographics.csv,interview_exam_status,RIDSTATR,Interview/Examination status
+demographics.csv,gender,RIAGENDR,Gender
+demographics.csv,age_years,RIDAGEYR,Age in years at screening
+demographics.csv,age_months_under2,RIDAGEMN,Age in months at screening - 0 to 24 mos
+demographics.csv,race_ethnicity,RIDRETH1,Race/Hispanic origin
+demographics.csv,race_ethnicity_with_asian,RIDRETH3,Race/Hispanic origin w/ NH Asian
+demographics.csv,exam_season,RIDEXMON,Six month time period
+demographics.csv,age_months_at_exam_under20,RIDEXAGM,Age in months at exam - 0 to 19 years
+demographics.csv,served_military,DMQMILIZ,Served active duty in US Armed Forces
+demographics.csv,served_abroad,DMQADFC,Served in a foreign country
+demographics.csv,country_of_birth,DMDBORN4,Country of birth
+demographics.csv,us_citizen,DMDCITZN,Citizenship status
+demographics.csv,years_in_us,DMDYRSUS,Length of time in US
+demographics.csv,education_child,DMDEDUC3,Education level - Children/Youth 6-19
+demographics.csv,education_adult,DMDEDUC2,Education level - Adults 20+
+demographics.csv,marital_status,DMDMARTL,Marital status
+demographics.csv,pregnant_at_exam,RIDEXPRG,Pregnancy status at exam
+demographics.csv,lang_person_interview,SIALANG,Language of SP Interview
+demographics.csv,proxy_person_interview,SIAPROXY,Proxy used in SP Interview?
+demographics.csv,interpreter_person_interview,SIAINTRP,Interpreter used in SP Interview?
+demographics.csv,lang_family_interview,FIALANG,Language of Family Interview
+demographics.csv,proxy_family_interview,FIAPROXY,Proxy used in Family Interview?
+demographics.csv,interpreter_family_interview,FIAINTRP,Interpreter used in Family Interview?
+demographics.csv,lang_exam_interview,MIALANG,Language of MEC Interview
+demographics.csv,proxy_exam_interview,MIAPROXY,Proxy used in MEC Interview?
+demographics.csv,interpreter_exam_interview,MIAINTRP,Interpreter used in MEC Interview?
+demographics.csv,lang_computer_interview,AIALANGA,Language of ACASI Interview
+demographics.csv,household_size,DMDHHSIZ,Total number of people in the Household
+demographics.csv,family_size,DMDFMSIZ,Total number of people in the Family
+demographics.csv,household_kids_0_5,DMDHHSZA,# of children 5 years or younger in HH
+demographics.csv,household_kids_6_17,DMDHHSZB,# of children 6-17 years old in HH
+demographics.csv,household_adults_60plus,DMDHHSZE,# of adults 60 years or older in HH
+demographics.csv,head_of_household_gender,DMDHRGND,HH ref person's gender
+demographics.csv,head_of_household_age_group,DMDHRAGZ,HH ref person's age in years
+demographics.csv,head_of_household_education,DMDHREDZ,HH ref person's education level
+demographics.csv,head_of_household_marital,DMDHRMAZ,HH ref person's marital status
+demographics.csv,head_of_household_spouse_education,DMDHSEDZ,HH ref person's spouse's education level
+demographics.csv,interview_weight,WTINT2YR,Full sample 2 year interview weight
+demographics.csv,exam_weight,WTMEC2YR,Full sample 2 year MEC exam weight
+demographics.csv,design_psu,SDMVPSU,Masked variance pseudo-PSU
+demographics.csv,design_stratum,SDMVSTRA,Masked variance pseudo-stratum
+demographics.csv,household_income,INDHHIN2,Annual household income
+demographics.csv,family_income,INDFMIN2,Annual family income
+demographics.csv,income_to_poverty_ratio,INDFMPIR,Ratio of family income to poverty
+body_measures.csv,person_id,SEQN,Respondent sequence number
+body_measures.csv,body_exam_status,BMDSTATS,Body Measures Component Status Code
+body_measures.csv,weight_kg,BMXWT,Weight (kg)
+body_measures.csv,weight_comment,BMIWT,Weight Comment
+body_measures.csv,recumbent_length_cm,BMXRECUM,Recumbent Length (cm)
+body_measures.csv,recumbent_length_comment,BMIRECUM,Recumbent Length Comment
+body_measures.csv,head_circumference_cm,BMXHEAD,Head Circumference (cm)
+body_measures.csv,head_circumference_comment,BMIHEAD,Head Circumference Comment
+body_measures.csv,height_cm,BMXHT,Standing Height (cm)
+body_measures.csv,height_comment,BMIHT,Standing Height Comment
+body_measures.csv,bmi,BMXBMI,Body Mass Index (kg/m**2)
+body_measures.csv,upper_leg_length_cm,BMXLEG,Upper Leg Length (cm)
+body_measures.csv,upper_leg_length_comment,BMILEG,Upper Leg Length Comment
+body_measures.csv,upper_arm_length_cm,BMXARML,Upper Arm Length (cm)
+body_measures.csv,upper_arm_length_comment,BMIARML,Upper Arm Length Comment
+body_measures.csv,arm_circumference_cm,BMXARMC,Arm Circumference (cm)
+body_measures.csv,arm_circumference_comment,BMIARMC,Arm Circumference Comment
+body_measures.csv,waist_cm,BMXWAIST,Waist Circumference (cm)
+body_measures.csv,waist_comment,BMIWAIST,Waist Circumference Comment
+body_measures.csv,hip_cm,BMXHIP,Hip Circumference (cm)
+body_measures.csv,hip_comment,BMIHIP,Hip Circumference Comment
+blood_pressure.csv,person_id,SEQN,Respondent sequence number
+blood_pressure.csv,bp_comment,PEASCCT1,Blood Pressure Comment
+blood_pressure.csv,heart_rate_child_60s,BPXCHR,60 sec HR (30 sec HR * 2)
+blood_pressure.csv,bp_arm,BPAARM,Arm selected
+blood_pressure.csv,bp_cuff_size,BPACSZ,Coded cuff size
+blood_pressure.csv,pulse_60s,BPXPLS,60 sec. pulse (30 sec. pulse * 2)
+blood_pressure.csv,pulse_regular,BPXPULS,Pulse regular or irregular?
+blood_pressure.csv,pulse_type,BPXPTY,Pulse type
+blood_pressure.csv,bp_max_inflation_mmhg,BPXML1,MIL: maximum inflation levels (mm Hg)
+blood_pressure.csv,systolic_bp_1,BPXSY1,Systolic: Blood pres (1st rdg) mm Hg
+blood_pressure.csv,diastolic_bp_1,BPXDI1,Diastolic: Blood pres (1st rdg) mm Hg
+blood_pressure.csv,bp_enhancement_1,BPAEN1,Enhancement used first reading
+blood_pressure.csv,systolic_bp_2,BPXSY2,Systolic: Blood pres (2nd rdg) mm Hg
+blood_pressure.csv,diastolic_bp_2,BPXDI2,Diastolic: Blood pres (2nd rdg) mm Hg
+blood_pressure.csv,bp_enhancement_2,BPAEN2,Enhancement used second reading
+blood_pressure.csv,systolic_bp_3,BPXSY3,Systolic: Blood pres (3rd rdg) mm Hg
+blood_pressure.csv,diastolic_bp_3,BPXDI3,Diastolic: Blood pres (3rd rdg) mm Hg
+blood_pressure.csv,bp_enhancement_3,BPAEN3,Enhancement used third reading
+blood_pressure.csv,systolic_bp_4,BPXSY4,Systolic: Blood pres (4th rdg) mm Hg
+blood_pressure.csv,diastolic_bp_4,BPXDI4,Diastolic: Blood pres (4th rdg) mm Hg
+blood_pressure.csv,bp_enhancement_4,BPAEN4,Enhancement used fourth reading
+total_cholesterol.csv,person_id,SEQN,Respondent Sequence Number
+total_cholesterol.csv,total_cholesterol_mg_dl,LBXTC,Total Cholesterol (mg/dL)
+total_cholesterol.csv,total_cholesterol_mmol_l,LBDTCSI,Total Cholesterol (mmol/L)
+hdl_cholesterol.csv,person_id,SEQN,Respondent Sequence Number
+hdl_cholesterol.csv,hdl_mg_dl,LBDHDD,Direct HDL-Cholesterol (mg/dL)
+hdl_cholesterol.csv,hdl_mmol_l,LBDHDDSI,Direct HDL-Cholesterol (mmol/L)
+triglycerides_ldl.csv,person_id,SEQN,Respondent sequence number
+triglycerides_ldl.csv,fasting_sample_weight,WTSAF2YR,Fasting Subsample 2 Year MEC Weight
+triglycerides_ldl.csv,triglycerides_mg_dl,LBXTR,Triglyceride (mg/dL)
+triglycerides_ldl.csv,triglycerides_mmol_l,LBDTRSI,Triglyceride (mmol/L)
+triglycerides_ldl.csv,ldl_friedewald_mg_dl,LBDLDL,"LDL-Cholesterol, Friedewald (mg/dL)"
+triglycerides_ldl.csv,ldl_friedewald_mmol_l,LBDLDLSI,"LDL-Cholesterol, Friedewald (mmol/L)"
+triglycerides_ldl.csv,ldl_martin_hopkins_mg_dl,LBDLDLM,"LDL-Cholesterol, Martin-Hopkins (mg/dL)"
+triglycerides_ldl.csv,ldl_martin_hopkins_mmol_l,LBDLDMSI,"LDL-Cholesterol, Martin-Hopkins (mmol/L)"
+triglycerides_ldl.csv,ldl_nih_mg_dl,LBDLDLN,"LDL-Cholesterol, NIH equation 2 (mg/dL)"
+triglycerides_ldl.csv,ldl_nih_mmol_l,LBDLDNSI,"LDL-Cholesterol, NIH equation 2 (mmol/L)"
+fasting_glucose.csv,person_id,SEQN,Respondent sequence number
+fasting_glucose.csv,fasting_sample_weight,WTSAF2YR,Fasting Subsample 2 Year MEC Weight
+fasting_glucose.csv,fasting_glucose_mg_dl,LBXGLU,Fasting Glucose (mg/dL)
+fasting_glucose.csv,fasting_glucose_mmol_l,LBDGLUSI,Fasting Glucose (mmol/L)
+insulin.csv,person_id,SEQN,Respondent sequence number
+insulin.csv,fasting_sample_weight,WTSAF2YR,Fasting Subsample 2 Year MEC Weight
+insulin.csv,insulin_uu_ml,LBXIN,Insulin (uU/mL)
+insulin.csv,insulin_pmol_l,LBDINSI,Insulin (pmol/L)
+insulin.csv,insulin_comment,LBDINLC,Insulin Comment Code
+hba1c.csv,person_id,SEQN,Respondent sequence number
+hba1c.csv,hba1c_percent,LBXGH,Glycohemoglobin (%)
+diabetes_questionnaire.csv,person_id,SEQN,Respondent sequence number
+diabetes_questionnaire.csv,told_diabetes,DIQ010,Doctor told you have diabetes
+diabetes_questionnaire.csv,age_told_diabetes,DID040,Age when first told you had diabetes
+diabetes_questionnaire.csv,told_prediabetes,DIQ160,Ever told you have prediabetes
+diabetes_questionnaire.csv,told_at_risk,DIQ170,Ever told have health risk for diabetes
+diabetes_questionnaire.csv,feels_at_risk,DIQ172,Feel could be at risk for diabetes
+diabetes_questionnaire.csv,risk_reason_family_history,DIQ175A,Family history
+diabetes_questionnaire.csv,risk_reason_overweight,DIQ175B,Overweight
+diabetes_questionnaire.csv,risk_reason_age,DIQ175C,Age
+diabetes_questionnaire.csv,risk_reason_poor_diet,DIQ175D,Poor diet
+diabetes_questionnaire.csv,risk_reason_race,DIQ175E,Race
+diabetes_questionnaire.csv,risk_reason_big_baby,DIQ175F,Had a baby weighed over 9 lbs. at birth
+diabetes_questionnaire.csv,risk_reason_inactivity,DIQ175G,Lack of physical activity
+diabetes_questionnaire.csv,risk_reason_high_bp,DIQ175H,High blood pressure
+diabetes_questionnaire.csv,risk_reason_high_blood_sugar,DIQ175I,High blood sugar
+diabetes_questionnaire.csv,risk_reason_high_cholesterol,DIQ175J,High cholesterol
+diabetes_questionnaire.csv,risk_reason_hypoglycemic,DIQ175K,Hypoglycemic
+diabetes_questionnaire.csv,risk_reason_extreme_hunger,DIQ175L,Extreme hunger
+diabetes_questionnaire.csv,risk_reason_tingling,DIQ175M,Tingling/numbness in hands or feet
+diabetes_questionnaire.csv,risk_reason_blurred_vision,DIQ175N,Blurred vision
+diabetes_questionnaire.csv,risk_reason_fatigue,DIQ175O,Increased fatigue
+diabetes_questionnaire.csv,risk_reason_anyone,DIQ175P,Anyone could be at risk
+diabetes_questionnaire.csv,risk_reason_doctor_warning,DIQ175Q,Doctor warning
+diabetes_questionnaire.csv,risk_reason_other,DIQ175R,"Other, specify"
+diabetes_questionnaire.csv,risk_reason_gestational_diabetes,DIQ175S,Gestational diabetes
+diabetes_questionnaire.csv,risk_reason_frequent_urination,DIQ175T,Frequent urination
+diabetes_questionnaire.csv,risk_reason_thirst,DIQ175U,Thirst
+diabetes_questionnaire.csv,risk_reason_sugar_craving,DIQ175V,Craving for sweet/eating a lot of sugar
+diabetes_questionnaire.csv,risk_reason_medication,DIQ175W,Medication
+diabetes_questionnaire.csv,risk_reason_pcos,DIQ175X,Polycystic ovarian syndrome
+diabetes_questionnaire.csv,blood_tested_past_3yrs,DIQ180,Had blood tested past three years
+diabetes_questionnaire.csv,taking_insulin,DIQ050,Taking insulin now
+diabetes_questionnaire.csv,insulin_duration,DID060,How long taking insulin
+diabetes_questionnaire.csv,insulin_duration_unit,DIQ060U,Unit of measure (month/year)
+diabetes_questionnaire.csv,taking_diabetes_pills,DIQ070,Take diabetic pills to lower blood sugar
+diabetes_questionnaire.csv,last_saw_diabetes_specialist,DIQ230,How long ago saw a diabetes specialist
+diabetes_questionnaire.csv,has_diabetes_doctor,DIQ240,Is there one Dr you see for diabetes
+diabetes_questionnaire.csv,diabetes_doctor_visits_past_year,DID250,Past year how many times seen doctor
+diabetes_questionnaire.csv,glucose_self_check_freq,DID260,How often check blood for glucose/sugar
+diabetes_questionnaire.csv,glucose_self_check_unit,DIQ260U,Unit of measure (day/week/month/year)
+diabetes_questionnaire.csv,a1c_checked_past_year,DIQ275,Past year Dr checked for A1C
+diabetes_questionnaire.csv,last_a1c_reported,DIQ280,What was your last A1C level
+diabetes_questionnaire.csv,a1c_target_reported,DIQ291,What does Dr say A1C should be
+diabetes_questionnaire.csv,recent_systolic_reported,DIQ300S,What was your recent SBP
+diabetes_questionnaire.csv,recent_diastolic_reported,DIQ300D,What was your recent DBP
+diabetes_questionnaire.csv,systolic_target_reported,DID310S,What does Dr say SBP should be
+diabetes_questionnaire.csv,diastolic_target_reported,DID310D,What does Dr say DBP should be
+diabetes_questionnaire.csv,recent_ldl_reported,DID320,What was most recent LDL number
+diabetes_questionnaire.csv,ldl_target_reported,DID330,What does Dr say LDL should be
+diabetes_questionnaire.csv,foot_checks_by_doctor_past_year,DID341,Past year times Dr check feet for sores
+diabetes_questionnaire.csv,foot_self_check_freq,DID350,How often do you check your feet
+diabetes_questionnaire.csv,foot_self_check_unit,DIQ350U,Unit of measure (day/week/month/year)
+diabetes_questionnaire.csv,last_eye_dilation_exam,DIQ360,Last time had pupils dilated for exam
+diabetes_questionnaire.csv,diabetic_retinopathy,DIQ080,Diabetes affected eyes/had retinopathy
