@@ -20,13 +20,14 @@ These are the original NHANES files with readable column names. Every table shar
 | `body_measures.csv` | `BMX_J` | 8,704 | Height, weight, BMI, waist circumference |
 | `blood_pressure.csv` | `BPX_J` | 8,704 | Systolic and diastolic blood pressure readings, pulse |
 | `diabetes_questionnaire.csv` | `DIQ_J` | 8,897 | Doctor-diagnosed diabetes, insulin and medication use, related history |
+| `bp_cholesterol_questionnaire.csv` | `BPQ_J` | 6,161 | Diagnosed high blood pressure and cholesterol, and whether taking medicine for each |
 | `hba1c.csv` | `GHB_J` | 6,401 | Glycohemoglobin (HbA1c, %) |
 | `fasting_glucose.csv` | `GLU_J` | 3,036 | Fasting plasma glucose (fasting subsample) |
 | `insulin.csv` | `INS_J` | 3,036 | Fasting insulin (fasting subsample) |
 | `total_cholesterol.csv` | `TCHOL_J` | 7,435 | Total cholesterol |
 | `hdl_cholesterol.csv` | `HDL_J` | 7,435 | HDL cholesterol |
 | `triglycerides_ldl.csv` | `TRIGLY_J` | 3,036 | Triglycerides and LDL cholesterol (fasting subsample) |
-| `data_dictionary.csv` | — | 169 | Maps every readable column name to its original NHANES code and description |
+| `data_dictionary.csv` | — | 180 | Maps every readable column name to its original NHANES code and description |
 
 Some tables cover only part of the sample. For example, fasting glucose, insulin and triglycerides were measured only in the fasting subsample of about 3,000 people.
 

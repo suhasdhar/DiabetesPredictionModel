@@ -168,3 +168,14 @@ diabetes_questionnaire.csv,foot_self_check_freq,DID350,How often do you check yo
 diabetes_questionnaire.csv,foot_self_check_unit,DIQ350U,Unit of measure (day/week/month/year)
 diabetes_questionnaire.csv,last_eye_dilation_exam,DIQ360,Last time had pupils dilated for exam
 diabetes_questionnaire.csv,diabetic_retinopathy,DIQ080,Diabetes affected eyes/had retinopathy
+bp_cholesterol_questionnaire.csv,person_id,SEQN,Respondent sequence number
+bp_cholesterol_questionnaire.csv,told_high_bp,BPQ020,Ever told you had high blood pressure
+bp_cholesterol_questionnaire.csv,told_high_bp_2plus_times,BPQ030,Told had high blood pressure - 2+ times
+bp_cholesterol_questionnaire.csv,age_told_high_bp,BPD035,Age told had hypertension
+bp_cholesterol_questionnaire.csv,told_take_bp_meds,BPQ040A,Taking prescription for hypertension
+bp_cholesterol_questionnaire.csv,taking_bp_meds,BPQ050A,Now taking prescribed medicine for HBP
+bp_cholesterol_questionnaire.csv,told_high_cholesterol,BPQ080,Doctor told you - high cholesterol level
+bp_cholesterol_questionnaire.csv,cholesterol_ever_checked,BPQ060,Ever had blood cholesterol checked
+bp_cholesterol_questionnaire.csv,cholesterol_last_checked,BPQ070,When blood cholesterol last checked
+bp_cholesterol_questionnaire.csv,told_take_cholesterol_meds,BPQ090D,Told to take prescription for cholesterol
+bp_cholesterol_questionnaire.csv,taking_cholesterol_meds,BPQ100D,Now taking prescribed medicine
