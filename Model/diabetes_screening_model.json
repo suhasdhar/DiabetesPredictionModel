@@ -1,0 +1,31 @@
+{
+  "model": "logistic regression",
+  "settings": {
+    "C": 0.1
+  },
+  "screening_cutoff": 0.13,
+  "recall_target": 0.8,
+  "input_features": [
+    "age_years",
+    "gender",
+    "bmi",
+    "waist_cm",
+    "hip_cm",
+    "weight_kg",
+    "height_cm",
+    "arm_circumference_cm",
+    "upper_leg_length_cm",
+    "upper_arm_length_cm",
+    "systolic_bp_1",
+    "systolic_bp_2",
+    "systolic_bp_3",
+    "diastolic_bp_1",
+    "diastolic_bp_2",
+    "diastolic_bp_3",
+    "pulse_60s"
+  ],
+  "test_roc_auc": 0.785,
+  "test_recall": 0.889,
+  "scikit_learn_version": "1.9.1",
+  "pandas_version": "3.0.6"
+}
