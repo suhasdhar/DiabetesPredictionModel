@@ -25,7 +25,7 @@
     "pulse_60s"
   ],
   "test_roc_auc": 0.785,
-  "test_average_precision": 0.363,
+  "test_pr_auc": 0.363,
   "test_recall": 0.889,
   "scikit_learn_version": "1.9.1",
   "pandas_version": "3.0.6"
